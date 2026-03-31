@@ -44,9 +44,17 @@ void pilihanJurusan( ) {
 }
 
 //Prosedu output
-void outpu( ) {
+void output( ) {
     cout<< "\n=== HASIL SELEKSI ==="<< endl;
     cout<< "Jurusan Pilihan : "<<NamaJurusan<< endl;
     cout<< "Status Kuota : "<<StatusKuota<< endl;
     cout<< "--------------------------------"<< endl;
+}
+
+int main( ) {
+    input( );
+    pilihanJurusan( );
+    output( );
+    
+    return 0;
 }
